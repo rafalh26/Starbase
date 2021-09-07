@@ -1,6 +1,3 @@
-if :Cruise == 0 then :CruiseSignal = 1 end
-if :Cruise == 10 then :CruiseSignal = 0 end
-
 :Is1=0 if :DoorsMC==1 OR :DoorsIN==1 then :Is1=1 end
 if :Is1==1 AND :Trg==0 then :Doors =1 end
 if :is1==1 AND :Trg==0 AND :Risen==0 then :Dtime=0 :Trg=0 :Risen=1 end
@@ -14,9 +11,7 @@ if :C2==1or :C4==1or :C5==1or :C6==1or :D1==1or :D2==1 then :CR=1 end
 if :D4==1or :D5==1or :D6==1or :E1==1or :E2==1or :E3==1 then :CR=1 end
 if :E5==1or :E6==1or :F2==1or :F3==1or :F4==1or :F5==1 then :CR=1 end
 if :F6==1 then :CR=1 end
-
 if:B2==1 and :C3==1 and :D3==1 and :E4==1 and :F1==1then:DO=5end
-
 if :CR==1 then :DO=0 end if :DO==5 then :DoorsMC=1 :CR=0 :DO=0 end
 if :Doors==1 then :A1=0 :A2=0 :A3=0 :A4=0 :A5=0 :A6=0 :B1=0 :CR=0 end
 if :Doors==1 then :B2=0 :B3=0 :B4=0 :B5=0 :B6=0 :C1=0 :C2=0 :CR=0 end
@@ -24,7 +19,6 @@ if :Doors==1 then :C3=0 :C4=0 :C5=0 :C6=0 :D1=0 :D2=0 :D3=0 :CR=0 end
 if :Doors==1 then :D4=0 :D5=0 :D6=0 :E1=0 :E2=0 :E3=0 :E4=0 :CR=0 end
 if :Doors==1 then :E5=0 :E6=0 :F1=0 :F2=0 :F3=0 :F4=0 :F5=0 :CR=0 end
 if :Doors==1 then :F6=0 :CR=0 end
-
 if :CR==1 then :A1=0 :A2=0 :A3=0 :A4=0 :A5=0 :A6=0 :B1=0 :CR=0 end
 if :CR==1 then :B2=0 :B3=0 :B4=0 :B5=0 :B6=0 :C1=0 :C2=0 :CR=0 end
 if :CR==1 then :C3=0 :C4=0 :C5=0 :C6=0 :D1=0 :D2=0 :D3=0 :CR=0 end
