@@ -1,0 +1,20 @@
+initialPower=:CellCore1 + :CellCore2 initialPower/=2
+powerDelta=0 //to find out fuel diffrence over time
+powerTime=0 //to find out for how long will last fuel rod
+
+
+
+
+
+
+
+power2s = :CellCore1 + :CellCore2 power2s/=2 //usage after 2s
+powerDelta=(initialPower - power2s) //finding diffrence between start
+//and 2s time after start
+powerTime=:CellCore1 + :CellCore2 powerTime/=2 powerTime/=powerDelta
+powerTime*=2 powerTime/=60 powerTime/=2
+:Energy = "CellUsage: "+powerDelta+"\n" +"Last for: "+powerTime
+//Energy is text Panel to display results
+//FCURL is FuelCellUnitRateLimit at fuel chamber I don't remember name
+IF :StoredBatteryPower>9500 AND powerDelta>0 THEN :FCURL-=5 end
+IF :StoredBatteryPower<9500 THEN :FCURL+=3 end goto1
