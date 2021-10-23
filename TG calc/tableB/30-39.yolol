@@ -1,0 +1,10 @@
+if :tgB>=0.577 and :tgB<0.601 then :BETA=30 end
+if :tgB>=0.601 and :tgB<0.625 then :BETA=31 end
+if :tgB>=0.625 and :tgB<0.649 then :BETA=32 end
+if :tgB>=0.649 and :tgB<0.674 then :BETA=33 end
+if :tgB>=0.674 and :tgB<0.700 then :BETA=34 end
+if :tgB>=0.700 and :tgB<0.726 then :BETA=35 end
+if :tgB>=0.726 and :tgB<0.753 then :BETA=36 end
+if :tgB>=0.753 and :tgB<0.781 then :BETA=37 end
+if :tgB>=0.781 and :tgB<0.810 then :BETA=38 end
+if :tgB>=0.810 and :tgB<0.839 then :BETA=39 end goto1

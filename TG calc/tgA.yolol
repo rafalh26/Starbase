@@ -1,0 +1,20 @@
+:T=(:H-4.92)*100 r=596 s=264 q=651.853 :Hy=sqrt(:T^2+r^2)
+Hx=sqrt(s^2+:T^2) :tgB=abs(:Hy/s) :tgA=abs(Hx/r)
+if :AFocus==1 then :LBA=90-:ALPHA :PITCH=90-:BETA end
+if :T>=1995 and :AFocus==1 or :T<500 then :Mine=0 :BMine=0 end
+if :T<1995 and :AFocus==1 then :Mine=1 end
+if :LBoost==1 and :AFocus==1 and :T<1995 then :BMine=1 end goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+//LASER AUTOFOCUS / AUTO OFF SCRIPT//

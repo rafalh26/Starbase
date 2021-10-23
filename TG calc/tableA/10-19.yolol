@@ -1,0 +1,10 @@
+if :tgA>=0.176 and :tgA<0.194 then :ALPHA=10 end
+if :tgA>=0.194 and :tgA<0.213 then :ALPHA=11 end
+if :tgA>=0.213 and :tgA<0.231 then :ALPHA=12 end
+if :tgA>=0.231 and :tgA<0.249 then :ALPHA=13 end
+if :tgA>=0.249 and :tgA<0.268 then :ALPHA=14 end
+if :tgA>=0.268 and :tgA<0.287 then :ALPHA=15 end
+if :tgA>=0.287 and :tgA<0.306 then :ALPHA=16 end
+if :tgA>=0.306 and :tgA<0.325 then :ALPHA=17 end
+if :tgA>=0.325 and :tgA<0.344 then :ALPHA=18 end
+if :tgA>=0.344 and :tgA<0.364 then :ALPHA=19 end goto1

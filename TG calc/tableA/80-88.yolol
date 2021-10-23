@@ -1,0 +1,9 @@
+if :tgA>=5.671 and :tgA<6.314 then :ALPHA=80 end
+if :tgA>=6.314 and :tgA<7.115 then :ALPHA=81 end
+if :tgA>=7.115 and :tgA<8.144 then :ALPHA=82 end
+if :tgA>=8.144 and :tgA<9.514 then :ALPHA=83 end
+if :tgA>=9.514 and :tgA<11.430 then :ALPHA=84 end
+if :tgA>=11.430 and :tgA<14.301 then :ALPHA=85 end
+if :tgA>=14.301 and :tgA<19.081 then :ALPHA=86 end
+if :tgA>=19.081 and :tgA<28.636 then :ALPHA=87 end
+if :tgA>=28.636 and :tgA<57.290 then :ALPHA=88 end goto1
